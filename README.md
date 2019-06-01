@@ -11,7 +11,9 @@ Preprocessing steps include:
 * data preprocessing: removing links, punctuation, digits, emojis and lowering the words.
 
 The methodological set-up is as follows:
-![Fig 1: ]
+
+<img src=https://github.com/GSukr/Sentiment_Analysis_Multilingual_Corpora/blob/master/fig1.png width=350>
+
 
 You can skip first 4 steps by using pre-calculated vectors: [vectors_croatian.csv](https://github.com/GSukr/Sentiment_Analysis_Multilingual_Corpora/blob/master/vectors_croatian.csv).
 
