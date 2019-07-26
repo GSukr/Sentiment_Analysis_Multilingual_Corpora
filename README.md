@@ -6,7 +6,7 @@ The resulted texts are then converted to vectors by averaging the vectorial repr
 Testing the approach with several machine learning classifiers on Swedish, Polish, Slovak and Croatian Twitter datasets returns up to 86% of classification accuracy on out-of-sample data.
 
 Preprocessing steps include:
-* data source: pre-labelled tweets in Croatian from [CLARIN](https://www.clarin.si/repository/xmlui/).
+* data source: pre-labelled tweets in Croatian from [CLARIN.SI](https://www.clarin.si/repository/xmlui/).
 * translation: tweets are translated with Cloud Translation API in Python with google_api_translate library more: [Translate](https://pypi.org/project/google-api-translate/)
 * data preprocessing: removing links, punctuation, digits, emojis and lowering the words.
 
