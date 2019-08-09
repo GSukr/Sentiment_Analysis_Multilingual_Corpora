@@ -3,7 +3,7 @@ A generic approach to the supervised **sentiment analysis of social media conten
 
 The method proposes translating the documents from the original language to English with Google's Neural Translation Model. 
 The resulted texts are then converted to vectors by averaging the vectorial representation of words. 
-Testing the approach with several machine learning classifiers on Swedish, Polish, Slovak and Croatian Twitter datasets returns up to 86% of classification accuracy on out-of-sample data.
+Testing the approach with several machine learning classifiers on Swedish, Polish, Slovenian and Croatian Twitter datasets returns up to 86% of classification accuracy on out-of-sample data.
 
 Preprocessing steps include:
 * data source: pre-labelled tweets in Croatian from [CLARIN.SI](https://www.clarin.si/repository/xmlui/). You can learn about the approach of the tweets annotation from [Mozetič, I., Grčar, M., & Smailović, J. (2016)](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0155036).
@@ -29,6 +29,6 @@ The results with different methods are as in the Table:
 |	ANN	|0.855805	|2.007087 |
 
 
-The methodology is well explained in our paper: Galeshchuk S., Jourdan J., Qiu Ju. Sentiment Analysis for Multilingual Corpora. 2019. Accepted to the workshop of [ACL'2019](http://www.acl2019.org/EN/call-for-papers.xhtml).
+The methodology is well explained in our paper: Galeshchuk S., Jourdan J., Qiu J. Sentiment Analysis for Multilingual Corpora. 2019. Accepted to the workshop of [ACL'2019](http://www.acl2019.org/EN/call-for-papers.xhtml).
 Please cite if you use the method.
 
